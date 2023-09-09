@@ -24,14 +24,22 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 18%;//nao cresce se houver espaco,nao encolhe,permaneça com 18% .
-
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
 .hotel-view{
     background-color: #fff;
-    background-color: aquamarine;
     flex: 1;//elemento cresce por todo espaço disponivel.
+
+
+    //test
+    height: 77rem;
+    background-color: aquamarine;
+
 
 
 
